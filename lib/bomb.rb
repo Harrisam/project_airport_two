@@ -9,13 +9,13 @@ class Bomb
 	end
 
 	def on!
-		@bomb = (1)
-		"BOMB SCARE!!!! FUCK"
+		@bomb = ("BOMB SCARE!!!!")
+		
 	end
 
 	def off!
-		@bomb = (0)
-		"It is ok peeps, we are safe and sound!!"
+		@bomb = ("It is ok peeps, we are safe and sound!!")
+		
 	end
 
 end
